@@ -613,16 +613,6 @@ point</em> matematikom. </p>
 4
 </pre>
 
-
-<h1>Zadaci za vježbu:</h1>
-<ol>
-<li>Napiši program koji će generirati slučajni broj između 0 i 15, te će tražiti
-od korisnika da pogodi koji je to broj. Kada pogodi, ispisati broj pokušaja.</li>
-<li>Napiši program koji će tražiti od korisnika unos imena ulica, gdje imena
-ulica smiju biti između 7 i 15 znakova. Unositi imena dok se ne unese riječ
-<code class="prettyprint lang- prettyprinted" style=""><span class="pln">prekid</span></code>, nakon čega program treba ispisati koliko je imena ulica unešeno, te
-koje ime ulice je najduže.</li>
-</ol>
 <h2>Numpy &amp; OpenCV</h2>
 <h4>Dodatna dokumentacija</h4>
 <p><a href="http://docs.scipy.org/doc/numpy/reference/generated/numpy.ndarray.html">Numpy array</a></p>
@@ -977,26 +967,6 @@ cv2</span><span class="pun">.</span><span class="pln">imwrite</span><span class=
 <pre class="prettyprint prettyprinted" style=""><span class="pln">cv2</span><span class="pun">.</span><span class="pln">imshow</span><span class="pun">(</span><span class="str">'title'</span><span class="pun">,</span><span class="pln"> img</span><span class="pun">)</span><span class="pln">
 cv2</span><span class="pun">.</span><span class="pln">waitKey</span><span class="pun">(</span><span class="lit">0</span><span class="pun">)</span><span class="pln">
 cv2</span><span class="pun">.</span><span class="pln">destroyAllWindows</span><span class="pun">()</span></pre>
-
-
-<h2>Zadaci:</h2>
-<ol>
-<li><p>Napisati program koji će učitati sliku i spremiti tri odvojene slike, po
-jednu za svaki kanal. Nazvati ih crvena.jpg, plava.jpg i zelena.jpg. (Hint:
-Pri snimanju jednog kanala, postaviti druga dva kanala na 0)</p>
-</li>
-<li><p>Isti zadatak kao 1., ali kanale prikazati na ekranu koristeći <code class="prettyprint lang- prettyprinted" style=""><span class="pln">imshow</span><span class="pun">()</span></code>.</p>
-</li>
-<li><p>Napisati program koji će učitati sliku i napraviti oko učitane slike obrub
-debljine 10 piksela. Takvu sliku spremiti.</p>
-</li>
-<li><p>Napisati program koji će učitati sliku, te iz te slike napraviti tri
-slike. Prva će imati dvostruko manje vertikalnih piksela od originala (redova),
-druga će imati dvostruko manje horizontalnih piksela od originala (stupaca), a
-treća će imati dvostruko manje i jednih i drugih. (Hint: uzimate svaki drugi
-piksel)</p>
-</li>
-</ol>
 </div>
 
 
